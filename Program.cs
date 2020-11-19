@@ -17,10 +17,11 @@ namespace linq
                                           orderby fruit ascending
                                           select fruit;
 
-            foreach (string f in LFruits)
-            {
-                Console.WriteLine($"{f}");
-            }
+            //consoloing out to keep from showing list every time program runs
+            // foreach (string f in LFruits)
+            // {
+            //     Console.WriteLine($"{f}");
+            // }
 
             // Which of the following numbers are multiples of 4 or 6
             List<int> numbers = new List<int>()
@@ -30,10 +31,11 @@ namespace linq
 
             IEnumerable<int> fourSixMultiples = numbers.Where(number => number % 4 == 0 || number % 6 == 0).OrderBy(number => number);
 
-            foreach (int n in fourSixMultiples)
-            {
-                Console.WriteLine($"{n}");
-            }
+            // //commenting out to keep from showing list every time program runs
+            // foreach (int n in fourSixMultiples)
+            // {
+            //     Console.WriteLine($"{n}");
+            // }
             // Order these student names alphabetically, in descending order (Z to A)
             List<string> names = new List<string>()
 {
@@ -45,12 +47,25 @@ namespace linq
 };
 
             IEnumerable<string> descend = names.OrderByDescending(n => n);
+            //consoloing out to keep from showing list every time program runs
+            // foreach (string n in descend)
+            // {
+            //     Console.WriteLine($"{n}");
+            // }
 
-            foreach (string n in descend)
+            // Build a collection of these numbers sorted in ascending order
+            List<int> numberonis = new List<int>()
+{
+    15, 8, 21, 24, 32, 13, 30, 12, 7, 54, 48, 4, 49, 96
+};
+            IEnumerable<int> sortedNumbers = numberonis.OrderBy(n => n);
+            foreach (int n in sortedNumbers)
             {
                 Console.WriteLine($"{n}");
             }
         }
+
+
 
     }
 }
