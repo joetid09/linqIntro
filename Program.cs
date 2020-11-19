@@ -22,6 +22,19 @@ namespace linq
                 Console.WriteLine($"{f}");
             }
 
+            // Which of the following numbers are multiples of 4 or 6
+            List<int> numbers = new List<int>()
+{
+    15, 8, 21, 24, 32, 13, 30, 12, 7, 54, 48, 4, 49, 96
+};
+
+            IEnumerable<int> fourSixMultiples = numbers.Where(number => number % 4 == 0 || number % 6 == 0).OrderBy(number => number);
+
+            foreach (int n in fourSixMultiples)
+            {
+                Console.WriteLine($"{n}");
+            }
+
         }
 
     }
