@@ -1,0 +1,16 @@
+C:\Users\josep\workspace\csharp\exercises\linq\bin\Debug\net5.0\linq.exe
+C:\Users\josep\workspace\csharp\exercises\linq\bin\Debug\net5.0\linq.deps.json
+C:\Users\josep\workspace\csharp\exercises\linq\bin\Debug\net5.0\linq.runtimeconfig.json
+C:\Users\josep\workspace\csharp\exercises\linq\bin\Debug\net5.0\linq.runtimeconfig.dev.json
+C:\Users\josep\workspace\csharp\exercises\linq\bin\Debug\net5.0\linq.dll
+C:\Users\josep\workspace\csharp\exercises\linq\bin\Debug\net5.0\ref\linq.dll
+C:\Users\josep\workspace\csharp\exercises\linq\bin\Debug\net5.0\linq.pdb
+C:\Users\josep\workspace\csharp\exercises\linq\obj\Debug\net5.0\linq.csprojAssemblyReference.cache
+C:\Users\josep\workspace\csharp\exercises\linq\obj\Debug\net5.0\linq.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josep\workspace\csharp\exercises\linq\obj\Debug\net5.0\linq.AssemblyInfoInputs.cache
+C:\Users\josep\workspace\csharp\exercises\linq\obj\Debug\net5.0\linq.AssemblyInfo.cs
+C:\Users\josep\workspace\csharp\exercises\linq\obj\Debug\net5.0\linq.csproj.CoreCompileInputs.cache
+C:\Users\josep\workspace\csharp\exercises\linq\obj\Debug\net5.0\linq.dll
+C:\Users\josep\workspace\csharp\exercises\linq\obj\Debug\net5.0\ref\linq.dll
+C:\Users\josep\workspace\csharp\exercises\linq\obj\Debug\net5.0\linq.pdb
+C:\Users\josep\workspace\csharp\exercises\linq\obj\Debug\net5.0\linq.genruntimeconfig.cache
