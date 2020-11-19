@@ -76,8 +76,21 @@ namespace linq
     2340.29, 745.31, 21.76, 34.03, 4786.45, 879.45, 9442.85, 2454.63, 45.65
 };
             Console.WriteLine(purchases.Sum());
+
+
+            // What is our most expensive product?
+            List<double> prices = new List<double>()
+{
+    879.45, 9442.85, 2454.63, 45.65, 2340.29, 34.03, 4786.45, 745.31, 21.76
+};
+
+            IOrderedEnumerable<double> orderedEnumerables = prices.OrderBy(n => n);
+            IEnumerable<double> priciest = orderedEnumerables;
+            Console.WriteLine($"huzzah {priciest.Last()}");
+
+
         }
-        // How much money have we made?
+
 
 
     }
